@@ -1,0 +1,26 @@
+{
+  "name": "standard-cli",
+  "version": "1.0.0",
+  "description": "统一前端规范，生成eslint、peritter、husky、lint-staged需要的配置文件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lgkang/standard-cli.git"
+  },
+  "bin": {
+    "standard-cli": "./bin/www.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lgkang/standard-cli/issues"
+  },
+  "homepage": "https://github.com/lgkang/standard-cli#readme",
+  "dependencies": {
+    "commander": "^8.2.0"
+  }
+}
